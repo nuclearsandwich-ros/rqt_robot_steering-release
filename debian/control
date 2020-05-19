@@ -1,0 +1,12 @@
+Source: ros-testing-rqt-robot-steering
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ros-workspace, python3-all, python3-setuptools
+Homepage: http://wiki.ros.org/rqt_robot_steering
+Standards-Version: 3.9.2
+
+Package: ros-testing-rqt-robot-steering
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-testing-ament-index-python, ros-testing-geometry-msgs, ros-testing-python-qt-binding (>= 0.2.19), ros-testing-rclpy, ros-testing-rqt-gui, ros-testing-rqt-gui-py, ros-testing-ros-workspace
+Description: rqt_robot_steering provides a GUI plugin for steering a robot using Twist messages.
